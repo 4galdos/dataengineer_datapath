@@ -1,0 +1,8 @@
+INSERT INTO Movie 
+VALUES ("80194187","Jon Down II03","2019-04-11","English","https://www.netflix.com/pe-en/title/80194187");
+
+DELETE FROM Movie WHERE movieTitle = 'Jon Down II03';
+
+UPDATE Movie SET originalLanguage = 'Spanish' WHERE movieTitle = 'Jon Down II03';
+
+DELETE FROM Movie WHERE movieTitle = 'Jon Down II03';
