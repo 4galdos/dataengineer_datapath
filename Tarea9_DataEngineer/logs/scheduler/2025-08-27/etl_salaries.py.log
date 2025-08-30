@@ -1,0 +1,588 @@
+[2025-08-27T04:05:58.915+0000] {processor.py:161} INFO - Started process (PID=3065) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:05:58.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:05:58.919+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:05:58.918+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:05:58.941+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:05:58.937+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:05:58.943+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:05:59.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.218 seconds
+[2025-08-27T04:06:29.546+0000] {processor.py:161} INFO - Started process (PID=3070) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:06:29.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:06:29.571+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:06:29.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:06:29.790+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:06:29.783+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:06:29.797+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:06:29.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.485 seconds
+[2025-08-27T04:07:00.395+0000] {processor.py:161} INFO - Started process (PID=3075) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:07:00.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:07:00.399+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:07:00.399+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:07:00.432+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:07:00.428+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:07:00.433+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:07:00.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.076 seconds
+[2025-08-27T04:07:30.638+0000] {processor.py:161} INFO - Started process (PID=3080) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:07:30.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:07:30.644+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:07:30.643+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:07:30.678+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:07:30.671+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:07:30.681+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:07:30.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.103 seconds
+[2025-08-27T04:08:01.178+0000] {processor.py:161} INFO - Started process (PID=3085) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:08:01.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:08:01.182+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:08:01.181+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:08:01.215+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:08:01.208+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:08:01.217+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:08:01.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.095 seconds
+[2025-08-27T04:08:31.584+0000] {processor.py:161} INFO - Started process (PID=3090) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:08:31.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:08:31.588+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:08:31.587+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:08:31.608+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:08:31.604+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:08:31.610+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:08:31.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.094 seconds
+[2025-08-27T04:09:01.970+0000] {processor.py:161} INFO - Started process (PID=3095) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:09:01.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:09:01.976+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:09:01.976+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:09:01.999+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:09:01.994+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:09:02.001+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:09:02.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.081 seconds
+[2025-08-27T04:09:32.403+0000] {processor.py:161} INFO - Started process (PID=3100) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:09:32.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:09:32.409+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:09:32.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:09:32.439+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:09:32.431+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:09:32.442+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:09:32.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.087 seconds
+[2025-08-27T04:10:02.833+0000] {processor.py:161} INFO - Started process (PID=3105) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:10:02.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:10:02.839+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:10:02.838+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:10:02.863+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:10:02.858+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:10:02.865+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:10:02.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.079 seconds
+[2025-08-27T04:10:33.220+0000] {processor.py:161} INFO - Started process (PID=3110) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:10:33.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:10:33.223+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:10:33.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:10:33.257+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:10:33.249+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:10:33.261+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:10:33.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.093 seconds
+[2025-08-27T04:11:03.760+0000] {processor.py:161} INFO - Started process (PID=3115) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:11:03.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:11:03.765+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:11:03.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:11:03.798+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:11:03.790+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:11:03.801+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:11:03.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.122 seconds
+[2025-08-27T04:11:34.208+0000] {processor.py:161} INFO - Started process (PID=3120) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:11:34.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:11:34.211+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:11:34.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:11:34.248+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:11:34.243+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:11:34.250+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:11:34.316+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.121 seconds
+[2025-08-27T04:12:04.574+0000] {processor.py:161} INFO - Started process (PID=3125) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:12:04.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:12:04.577+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:12:04.577+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:12:04.607+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:12:04.600+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:12:04.610+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:12:04.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.084 seconds
+[2025-08-27T04:12:35.091+0000] {processor.py:161} INFO - Started process (PID=3130) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:12:35.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:12:35.095+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:12:35.094+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:12:35.113+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:12:35.109+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:12:35.114+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:12:35.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.070 seconds
+[2025-08-27T04:13:05.534+0000] {processor.py:161} INFO - Started process (PID=3135) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:13:05.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:13:05.538+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:13:05.537+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:13:05.555+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:13:05.552+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:13:05.557+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:13:05.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.065 seconds
+[2025-08-27T04:13:36.105+0000] {processor.py:161} INFO - Started process (PID=3140) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:13:36.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:13:36.109+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:13:36.109+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:13:36.131+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:13:36.126+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:13:36.133+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:13:36.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.082 seconds
+[2025-08-27T04:14:06.642+0000] {processor.py:161} INFO - Started process (PID=3145) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:14:06.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:14:06.649+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:14:06.648+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:14:06.684+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:14:06.675+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:14:06.688+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:14:06.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.117 seconds
+[2025-08-27T04:14:37.246+0000] {processor.py:161} INFO - Started process (PID=3150) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:14:37.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:14:37.256+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:14:37.254+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:14:37.350+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:14:37.328+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:14:37.356+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:14:37.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.239 seconds
+[2025-08-27T04:15:07.675+0000] {processor.py:161} INFO - Started process (PID=3155) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:15:07.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:15:07.678+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:15:07.678+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:15:07.701+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:15:07.696+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:15:07.704+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:15:07.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.079 seconds
+[2025-08-27T04:15:38.093+0000] {processor.py:161} INFO - Started process (PID=3160) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:15:38.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:15:38.096+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:15:38.095+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:15:38.122+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:15:38.116+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:15:38.124+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:15:38.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.098 seconds
+[2025-08-27T04:37:52.078+0000] {processor.py:161} INFO - Started process (PID=3165) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:37:52.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:37:52.081+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:37:52.081+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:37:52.107+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:37:52.101+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:37:52.110+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:37:52.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.220 seconds
+[2025-08-27T04:38:22.643+0000] {processor.py:161} INFO - Started process (PID=3170) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:38:22.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:38:22.647+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:38:22.646+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:38:22.674+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:38:22.669+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:38:22.677+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:38:22.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.070 seconds
+[2025-08-27T04:38:52.861+0000] {processor.py:161} INFO - Started process (PID=3175) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:38:52.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:38:52.866+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:38:52.866+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:38:52.894+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:38:52.889+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:38:52.896+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:38:53.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.582 seconds
+[2025-08-27T04:39:23.691+0000] {processor.py:161} INFO - Started process (PID=3180) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:39:23.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:39:23.694+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:39:23.694+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:39:23.726+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:39:23.720+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:39:23.728+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:39:23.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.285 seconds
+[2025-08-27T04:39:54.051+0000] {processor.py:161} INFO - Started process (PID=3185) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:39:54.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:39:54.055+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:39:54.054+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:39:54.095+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:39:54.085+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:39:54.099+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:39:54.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.111 seconds
+[2025-08-27T04:40:24.463+0000] {processor.py:161} INFO - Started process (PID=3190) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:40:24.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:40:24.469+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:40:24.468+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:40:24.514+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:40:24.503+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:40:24.518+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:40:24.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.112 seconds
+[2025-08-27T04:40:54.921+0000] {processor.py:161} INFO - Started process (PID=3195) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:40:54.923+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:40:54.924+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:40:54.924+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:40:54.947+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:40:54.943+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:40:54.949+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:40:54.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.080 seconds
+[2025-08-27T04:41:25.370+0000] {processor.py:161} INFO - Started process (PID=3200) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:41:25.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:41:25.378+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:41:25.377+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:41:25.422+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:41:25.415+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:41:25.425+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:41:25.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.110 seconds
+[2025-08-27T04:41:55.803+0000] {processor.py:161} INFO - Started process (PID=3205) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:41:55.806+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:41:55.809+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:41:55.808+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:41:55.857+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:41:55.847+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:41:55.861+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:41:55.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.137 seconds
+[2025-08-27T04:42:26.303+0000] {processor.py:161} INFO - Started process (PID=3210) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:42:26.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:42:26.307+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:42:26.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:42:26.335+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:42:26.329+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:42:26.337+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:42:26.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.074 seconds
+[2025-08-27T04:42:57.070+0000] {processor.py:161} INFO - Started process (PID=3215) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:42:57.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:42:57.083+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:42:57.080+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:42:57.160+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:42:57.141+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:42:57.167+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:42:57.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.254 seconds
+[2025-08-27T04:43:27.439+0000] {processor.py:161} INFO - Started process (PID=3220) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:43:27.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:43:27.447+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:43:27.446+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:43:27.471+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:43:27.466+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:43:27.472+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:43:27.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.089 seconds
+[2025-08-27T04:43:57.801+0000] {processor.py:161} INFO - Started process (PID=3225) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:43:57.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:43:57.815+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:43:57.813+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:43:57.851+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:43:57.845+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:43:57.854+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:43:57.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.120 seconds
+[2025-08-27T04:44:28.274+0000] {processor.py:161} INFO - Started process (PID=3230) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:44:28.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:44:28.279+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:44:28.278+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:44:28.301+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:44:28.296+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:44:28.303+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:44:28.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.120 seconds
+[2025-08-27T04:44:58.843+0000] {processor.py:161} INFO - Started process (PID=3235) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:44:58.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:44:58.854+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:44:58.851+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:44:58.949+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:44:58.914+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:44:58.957+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:44:59.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.249 seconds
+[2025-08-27T04:45:29.417+0000] {processor.py:161} INFO - Started process (PID=3240) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:45:29.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:45:29.429+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:45:29.427+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:45:29.507+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:45:29.491+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:45:29.513+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:45:29.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.226 seconds
+[2025-08-27T04:46:00.049+0000] {processor.py:161} INFO - Started process (PID=3245) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:46:00.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:46:00.053+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:46:00.052+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:46:00.072+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:46:00.066+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:46:00.077+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:46:00.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.085 seconds
+[2025-08-27T04:46:30.592+0000] {processor.py:161} INFO - Started process (PID=3250) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:46:30.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:46:30.598+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:46:30.597+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:46:30.649+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:46:30.636+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:46:30.653+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:46:30.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.162 seconds
+[2025-08-27T04:47:01.000+0000] {processor.py:161} INFO - Started process (PID=3255) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:47:01.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:47:01.004+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:47:01.003+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:47:01.033+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:47:01.028+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:47:01.035+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:47:01.061+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.084 seconds
+[2025-08-27T04:47:31.493+0000] {processor.py:161} INFO - Started process (PID=3260) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:47:31.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:47:31.504+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:47:31.502+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:47:31.578+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:47:31.561+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:47:31.583+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:47:31.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.215 seconds
+[2025-08-27T04:48:02.001+0000] {processor.py:161} INFO - Started process (PID=3265) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:48:02.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T04:48:02.005+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:48:02.004+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:48:02.043+0000] {logging_mixin.py:188} INFO - [2025-08-27T04:48:02.035+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T04:48:02.046+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T04:48:02.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 0.097 seconds
+[2025-08-27T08:03:36.870+0000] {processor.py:161} INFO - Started process (PID=3270) to work on /opt/airflow/dags/etl_salaries.py
+[2025-08-27T08:03:36.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_salaries.py for tasks to queue
+[2025-08-27T08:03:36.873+0000] {logging_mixin.py:188} INFO - [2025-08-27T08:03:36.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T08:03:36.886+0000] {logging_mixin.py:188} INFO - [2025-08-27T08:03:36.883+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl_salaries.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_salaries.py", line 55, in <module>
+    from airflow.providers.postgres.operators.postgres import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.providers.postgres.operators.postgres' (/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/postgres/operators/postgres.py)
+[2025-08-27T08:03:36.887+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_salaries.py
+[2025-08-27T08:03:38.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_salaries.py took 1.692 seconds
